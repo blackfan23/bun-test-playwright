@@ -1,0 +1,56 @@
+{
+  "name": "node-playwright",
+  "$schema": "../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "node-playwright/src",
+  "projectType": "application",
+  "tags": [],
+  "targets": {
+    "build": {
+      "executor": "@nx/esbuild:esbuild",
+      "outputs": ["{options.outputPath}"],
+      "defaultConfiguration": "production",
+      "options": {
+        "platform": "node",
+        "outputPath": "dist/node-playwright",
+        "format": ["cjs"],
+        "bundle": false,
+        "main": "node-playwright/src/main.ts",
+        "tsConfig": "node-playwright/tsconfig.app.json",
+        "assets": ["node-playwright/src/assets"],
+        "generatePackageJson": true,
+        "esbuildOptions": {
+          "sourcemap": true,
+          "outExtension": {
+            ".js": ".js"
+          }
+        }
+      },
+      "configurations": {
+        "development": {},
+        "production": {
+          "esbuildOptions": {
+            "sourcemap": false,
+            "outExtension": {
+              ".js": ".js"
+            }
+          }
+        }
+      }
+    },
+    "serve": {
+      "executor": "@nx/js:node",
+      "defaultConfiguration": "development",
+      "options": {
+        "buildTarget": "node-playwright:build"
+      },
+      "configurations": {
+        "development": {
+          "buildTarget": "node-playwright:build:development"
+        },
+        "production": {
+          "buildTarget": "node-playwright:build:production"
+        }
+      }
+    }
+  }
+}
