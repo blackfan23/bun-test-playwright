@@ -1,4 +1,5 @@
-Testrepo for playwright connect with bun 1.1.4
+Updated 2024-06-03
+Testrepo for playwright connect with bun 1.1.12 - still Fails
 
 1. Install deps
    `npm install --legacy-peer-deps`
