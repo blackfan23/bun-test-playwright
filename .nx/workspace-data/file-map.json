@@ -52,104 +52,67 @@
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": "tsconfig.base.json",
-        "hash": "13820892288481641697"
-      },
-      {
-        "file": ".prettierrc",
-        "hash": "16267754514737964994"
-      },
-      {
-        "file": ".vscode/extensions.json",
-        "hash": "4934098906304722861"
-      },
-      {
         "file": "nx.json",
         "hash": "3572990181569677582"
-      },
-      {
-        "file": "package.json",
-        "hash": "1592698353426705709"
-      },
-      {
-        "file": ".eslintignore",
-        "hash": "7663861978715868291"
-      },
-      {
-        "file": ".eslintrc.json",
-        "hash": "18315524891129148814"
-      },
-      {
-        "file": ".prettierignore",
-        "hash": "16448050467312557263"
-      },
-      {
-        "file": "jest.config.ts",
-        "hash": "3494843969422251966"
-      },
-      {
-        "file": ".nx/workspace-data/d/server-process.json",
-        "hash": "17655925695833904201"
-      },
-      {
-        "file": "README.md",
-        "hash": "9900811034612618115"
-      },
-      {
-        "file": "jest.preset.js",
-        "hash": "9430166341120122740"
-      },
-      {
-        "file": "package-lock.json",
-        "hash": "2751529978536957145"
       },
       {
         "file": ".gitignore",
         "hash": "16877376182141465221"
       },
       {
+        "file": ".eslintignore",
+        "hash": "7663861978715868291"
+      },
+      {
+        "file": "jest.config.ts",
+        "hash": "3494843969422251966"
+      },
+      {
+        "file": "package.json",
+        "hash": "1592698353426705709"
+      },
+      {
+        "file": ".nx/workspace-data/d/server-process.json",
+        "hash": "1717391155695286036"
+      },
+      {
         "file": ".editorconfig",
         "hash": "5443105041930014821"
+      },
+      {
+        "file": "bun.lockb",
+        "hash": "1962574636234202843"
+      },
+      {
+        "file": ".prettierrc",
+        "hash": "16267754514737964994"
+      },
+      {
+        "file": ".prettierignore",
+        "hash": "16448050467312557263"
+      },
+      {
+        "file": "jest.preset.js",
+        "hash": "9430166341120122740"
+      },
+      {
+        "file": "tsconfig.base.json",
+        "hash": "13820892288481641697"
+      },
+      {
+        "file": "README.md",
+        "hash": "9900811034612618115"
+      },
+      {
+        "file": ".eslintrc.json",
+        "hash": "18315524891129148814"
+      },
+      {
+        "file": ".vscode/extensions.json",
+        "hash": "4934098906304722861"
       }
     ],
     "projectFileMap": {
-      "node-playwright": [
-        {
-          "file": "node-playwright/.eslintrc.json",
-          "hash": "11808533155536463924"
-        },
-        {
-          "file": "node-playwright/jest.config.ts",
-          "hash": "10876290900016501674"
-        },
-        {
-          "file": "node-playwright/project.json",
-          "hash": "9075671355553120290"
-        },
-        {
-          "file": "node-playwright/src/assets/.gitkeep",
-          "hash": "3244421341483603138"
-        },
-        {
-          "file": "node-playwright/src/main.ts",
-          "hash": "2520931163015517198",
-          "deps": [
-            "npm:playwright"
-          ]
-        },
-        {
-          "file": "node-playwright/tsconfig.app.json",
-          "hash": "1650782542565282680"
-        },
-        {
-          "file": "node-playwright/tsconfig.json",
-          "hash": "9420862676426701392"
-        },
-        {
-          "file": "node-playwright/tsconfig.spec.json",
-          "hash": "17313551537729802733"
-        }
-      ],
       "node-playwright-e2e": [
         {
           "file": "node-playwright-e2e/.eslintrc.json",
@@ -229,6 +192,43 @@
         {
           "file": "bun-puppeteer/tsconfig.json",
           "hash": "15689909388364298010"
+        }
+      ],
+      "node-playwright": [
+        {
+          "file": "node-playwright/.eslintrc.json",
+          "hash": "11808533155536463924"
+        },
+        {
+          "file": "node-playwright/jest.config.ts",
+          "hash": "10876290900016501674"
+        },
+        {
+          "file": "node-playwright/project.json",
+          "hash": "9075671355553120290"
+        },
+        {
+          "file": "node-playwright/src/assets/.gitkeep",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "node-playwright/src/main.ts",
+          "hash": "2520931163015517198",
+          "deps": [
+            "npm:playwright"
+          ]
+        },
+        {
+          "file": "node-playwright/tsconfig.app.json",
+          "hash": "1650782542565282680"
+        },
+        {
+          "file": "node-playwright/tsconfig.json",
+          "hash": "9420862676426701392"
+        },
+        {
+          "file": "node-playwright/tsconfig.spec.json",
+          "hash": "17313551537729802733"
         }
       ]
     }
