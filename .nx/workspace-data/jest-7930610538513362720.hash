@@ -1,0 +1,60 @@
+{
+  "17211799259388451854": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "node-playwright"
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/node-playwright"
+        ]
+      }
+    }
+  },
+  "10831193248618886421": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "node-playwright-e2e"
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/node-playwright-e2e"
+        ]
+      }
+    }
+  }
+}

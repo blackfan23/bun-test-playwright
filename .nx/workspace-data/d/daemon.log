@@ -1,0 +1,67 @@
+[NX Daemon Server] - 2024-06-12T05:40:26.885Z - Started listening on: /var/folders/y_/4jw18d6503s3v0wrvhm5swgh0000gn/T/d812fa4dbfdf80e6037a/d.sock
+[NX Daemon Server] - 2024-06-12T05:40:26.887Z - [WATCHER]: Subscribed to changes within: /Users/jpargac/Developer/bun-playwright (native)
+[NX Daemon Server] - 2024-06-12T05:40:26.887Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-06-12T05:40:26.888Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-06-12T05:40:26.889Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-06-12T05:40:26.890Z - [REQUEST]: Responding to the client. handleGlob
+[NX Daemon Server] - 2024-06-12T05:40:26.890Z - Done responding to the client handleGlob
+[NX Daemon Server] - 2024-06-12T05:40:26.890Z - Handled GLOB. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-06-12T05:40:26.904Z - [REQUEST]: Responding to the client. handleGlob
+[NX Daemon Server] - 2024-06-12T05:40:26.904Z - Done responding to the client handleGlob
+[NX Daemon Server] - 2024-06-12T05:40:26.904Z - Handled GLOB. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-06-12T05:40:26.904Z - [REQUEST]: Responding to the client. handleGlob
+[NX Daemon Server] - 2024-06-12T05:40:26.904Z - Done responding to the client handleGlob
+[NX Daemon Server] - 2024-06-12T05:40:26.905Z - Handled GLOB. Handling time: 0. Response time: 1.
+[NX Daemon Server] - 2024-06-12T05:40:26.947Z - [WATCHER]: .nx/workspace-data/d/server-process.json was created or restored
+[NX Daemon Server] - 2024-06-12T05:40:27.004Z - [REQUEST]: Responding to the client. handleGlob
+[NX Daemon Server] - 2024-06-12T05:40:27.004Z - Done responding to the client handleGlob
+[NX Daemon Server] - 2024-06-12T05:40:27.004Z - Handled GLOB. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-06-12T05:40:27.004Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-06-12T05:40:27.004Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-06-12T05:40:27.005Z - Handled HASH_GLOB. Handling time: 0. Response time: 1.
+[NX Daemon Server] - 2024-06-12T05:40:27.005Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-06-12T05:40:27.005Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-06-12T05:40:27.005Z - Handled HASH_GLOB. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-06-12T05:40:27.008Z - [REQUEST]: Responding to the client. handleGlob
+[NX Daemon Server] - 2024-06-12T05:40:27.008Z - Done responding to the client handleGlob
+[NX Daemon Server] - 2024-06-12T05:40:27.008Z - Handled GLOB. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-06-12T05:40:27.086Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-12T05:40:27.086Z - [REQUEST]: .nx/workspace-data/d/server-process.json
+[NX Daemon Server] - 2024-06-12T05:40:27.086Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-12T05:40:27.691Z - [REQUEST]: Responding to the client. handleGlob
+[NX Daemon Server] - 2024-06-12T05:40:27.691Z - Done responding to the client handleGlob
+[NX Daemon Server] - 2024-06-12T05:40:27.691Z - Handled GLOB. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-06-12T05:40:27.692Z - Time taken for 'Load Nx Plugin: /Users/jpargac/Developer/bun-playwright/node_modules/nx/src/plugins/project-json/build-nodes/package-json-next-to-project-json' 36.07654100000002ms
+[NX Daemon Server] - 2024-06-12T05:40:27.692Z - [REQUEST]: Responding to the client. handleGlob
+[NX Daemon Server] - 2024-06-12T05:40:27.692Z - Done responding to the client handleGlob
+[NX Daemon Server] - 2024-06-12T05:40:27.692Z - Handled GLOB. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-06-12T05:40:28.099Z - [REQUEST]: Responding to the client. handleGlob
+[NX Daemon Server] - 2024-06-12T05:40:28.099Z - Done responding to the client handleGlob
+[NX Daemon Server] - 2024-06-12T05:40:28.099Z - Handled GLOB. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-06-12T05:40:28.099Z - Time taken for 'build-project-configs' 977.878625ms
+[NX Daemon Server] - 2024-06-12T05:40:28.099Z - [REQUEST]: Responding to the client. handleGlob
+[NX Daemon Server] - 2024-06-12T05:40:28.100Z - Done responding to the client handleGlob
+[NX Daemon Server] - 2024-06-12T05:40:28.100Z - Handled GLOB. Handling time: 0. Response time: 1.
+[NX Daemon Server] - 2024-06-12T05:40:28.100Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-06-12T05:40:28.100Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-06-12T05:40:28.100Z - Handled HASH_GLOB. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-06-12T05:40:28.101Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-06-12T05:40:28.101Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-06-12T05:40:28.101Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-06-12T05:40:28.362Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-06-12T05:40:28.363Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-06-12T05:40:28.363Z - Handled HASH_GLOB. Handling time: 0. Response time: 1.
+[NX Daemon Server] - 2024-06-12T05:40:28.366Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-06-12T05:40:28.366Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-06-12T05:40:28.366Z - Handled HASH_GLOB. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-06-12T05:40:28.370Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-06-12T05:40:28.370Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-06-12T05:40:28.370Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-06-12T05:40:28.378Z - [REQUEST]: Responding to the client. handleNxWorkspaceFiles
+[NX Daemon Server] - 2024-06-12T05:40:28.378Z - Done responding to the client handleNxWorkspaceFiles
+[NX Daemon Server] - 2024-06-12T05:40:28.378Z - Handled GET_NX_WORKSPACE_FILES. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-06-12T05:40:28.402Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-06-12T05:41:30.309Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-12T05:41:30.310Z - [WATCHER]: Stopping the watcher for /Users/jpargac/Developer/bun-playwright (sources)
+[NX Daemon Server] - 2024-06-12T05:41:30.310Z - [WATCHER]: Stopping the watcher for /Users/jpargac/Developer/bun-playwright (outputs)
+[NX Daemon Server] - 2024-06-12T05:41:30.310Z - Server stopped because: "LOCK_FILES_CHANGED"
