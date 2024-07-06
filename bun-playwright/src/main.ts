@@ -1,4 +1,7 @@
 import { chromium } from 'playwright';
+
+console.log('Running bun-playwright with version: ', Bun.version);
+
 const browser = await chromium.connectOverCDP('http://localhost:9555');
 const defaultContext = browser.contexts()[0];
 const page = await defaultContext.newPage();
