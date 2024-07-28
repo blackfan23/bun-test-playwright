@@ -1,0 +1,26 @@
+Daemon process terminated and closed the connection
+
+Messages from the log:
+[NX Daemon Server] - 2024-07-28T14:59:37.181Z - Handled HASH_GLOB. Handling time: 5. Response time: 0.
+[NX Daemon Server] - 2024-07-28T14:59:37.306Z - Started listening on: /var/folders/y_/4jw18d6503s3v0wrvhm5swgh0000gn/T/d812fa4dbfdf80e6037a/d.sock
+[NX Daemon Server] - 2024-07-28T14:59:37.309Z - [WATCHER]: Subscribed to changes within: /Users/jpargac/Developer/bun-playwright (native)
+[NX Daemon Server] - 2024-07-28T14:59:37.316Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-07-28T14:59:37.317Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-07-28T14:59:37.318Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-07-28T14:59:37.319Z - [REQUEST]: Responding to the client. handleNxWorkspaceFiles
+[NX Daemon Server] - 2024-07-28T14:59:37.319Z - Done responding to the client handleNxWorkspaceFiles
+[NX Daemon Server] - 2024-07-28T14:59:37.319Z - Handled GET_NX_WORKSPACE_FILES. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-07-28T14:59:37.368Z - Started listening on: /var/folders/y_/4jw18d6503s3v0wrvhm5swgh0000gn/T/d812fa4dbfdf80e6037a/d.sock
+[NX Daemon Server] - 2024-07-28T14:59:37.370Z - [WATCHER]: Subscribed to changes within: /Users/jpargac/Developer/bun-playwright (native)
+[NX Daemon Server] - 2024-07-28T14:59:37.430Z - [WATCHER]: .nx/workspace-data/d/server-process.json was modified
+[NX Daemon Server] - 2024-07-28T14:59:37.553Z - Started listening on: /var/folders/y_/4jw18d6503s3v0wrvhm5swgh0000gn/T/d812fa4dbfdf80e6037a/d.sock
+[NX Daemon Server] - 2024-07-28T14:59:37.555Z - [WATCHER]: Subscribed to changes within: /Users/jpargac/Developer/bun-playwright (native)
+[NX Daemon Server] - 2024-07-28T14:59:37.561Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-07-28T14:59:37.562Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-07-28T14:59:37.564Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-07-28T14:59:37.565Z - [REQUEST]: Client Request for Project Graph Received
+[0728/165937.642132:ERROR:codesign_util.cc(93)] SecCodeCopyGuestWithAttributes: Error Domain=NSOSStatusErrorDomain Code=100003 "ESRCH: No such process" (100003)
+
+
+
+More information: /Users/jpargac/Developer/bun-playwright/.nx/workspace-data/d/daemon.log

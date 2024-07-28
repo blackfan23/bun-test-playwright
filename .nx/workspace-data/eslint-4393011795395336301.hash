@@ -73,5 +73,56 @@
   "6473133499304328525": {},
   "17367478978123116869": {},
   "7964836027534243422": {},
-  "14241321389769046471": {}
+  "14241321389769046471": {},
+  "3054617609932821551": {},
+  "4854921973205356759": {},
+  "10830106357861876290": {},
+  "6386627034747476480": {
+    "node-playwright": {
+      "targets": {
+        "lint": {
+          "command": "eslint .",
+          "cache": true,
+          "options": {
+            "cwd": "node-playwright",
+            "env": {
+              "ESLINT_USE_FLAT_CONFIG": "false"
+            }
+          },
+          "inputs": [
+            "default",
+            "^default",
+            "{workspaceRoot}/.eslintrc.json",
+            "{projectRoot}/.eslintrc.json",
+            "{workspaceRoot}/tools/eslint-rules/**/*",
+            {
+              "externalDependencies": [
+                "eslint"
+              ]
+            }
+          ],
+          "outputs": [
+            "{options.outputFile}"
+          ],
+          "metadata": {
+            "technologies": [
+              "eslint"
+            ],
+            "description": "Runs ESLint on project",
+            "help": {
+              "command": "bun eslint --help",
+              "example": {
+                "options": {
+                  "max-warnings": 0
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "3370147956566102627": {},
+  "14948973642217491553": {},
+  "1921003566750874294": {}
 }

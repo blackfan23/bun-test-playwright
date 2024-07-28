@@ -1,36 +1,36 @@
 {
   "version": "6.0",
-  "nxVersion": "19.4.1",
+  "nxVersion": "19.5.3",
   "deps": {
-    "@nx/devkit": "^19.4.1",
+    "@nx/devkit": "^19.5.3",
     "install": "^0.13.0",
-    "playwright": "^1.45.1",
-    "puppeteer": "^22.12.1",
+    "playwright": "^1.45.3",
+    "puppeteer": "^22.14.0",
     "tslib": "^2.6.3",
     "@nx-bun/nx": "^1.2.0",
-    "@nx/esbuild": "19.4.1",
-    "@nx/eslint": "19.4.1",
-    "@nx/eslint-plugin": "19.4.1",
-    "@nx/jest": "19.4.1",
-    "@nx/js": "19.4.1",
-    "@nx/node": "19.4.1",
-    "@nx/workspace": "19.4.1",
-    "@swc-node/register": "~1.10.2",
-    "@swc/core": "~1.6.7",
-    "@swc/helpers": "~0.5.11",
+    "@nx/esbuild": "19.5.3",
+    "@nx/eslint": "19.5.3",
+    "@nx/eslint-plugin": "19.5.3",
+    "@nx/jest": "19.5.3",
+    "@nx/js": "19.5.3",
+    "@nx/node": "19.5.3",
+    "@nx/workspace": "19.5.3",
+    "@swc-node/register": "~1.10.9",
+    "@swc/core": "~1.7.3",
+    "@swc/helpers": "~0.5.12",
     "@types/jest": "^29.5.12",
-    "@types/node": "~20.14.10",
-    "@typescript-eslint/eslint-plugin": "^7.15.0",
-    "@typescript-eslint/parser": "^7.15.0",
-    "bun-types": "1.1.18",
+    "@types/node": "~22.0.0",
+    "@typescript-eslint/eslint-plugin": "^7.17.0",
+    "@typescript-eslint/parser": "^7.17.0",
+    "bun-types": "1.1.21",
     "esbuild": "^0.23.0",
-    "eslint": "~9.6.0",
+    "eslint": "~9.8.0",
     "eslint-config-prettier": "^9.1.0",
     "jest": "^29.7.0",
     "jest-environment-node": "^29.7.0",
-    "nx": "19.4.1",
-    "prettier": "^3.3.2",
-    "ts-jest": "^29.1.5",
+    "nx": "19.5.3",
+    "prettier": "^3.3.3",
+    "ts-jest": "^29.2.3",
     "ts-node": "10.9.2",
     "typescript": "~5.4.5"
   },
@@ -50,68 +50,6 @@
     }
   ],
   "fileMap": {
-    "nonProjectFiles": [
-      {
-        "file": ".nx/workspace-data/d/server-process.json",
-        "hash": "457703418993672576"
-      },
-      {
-        "file": "package.json",
-        "hash": "12101934640350008987"
-      },
-      {
-        "file": "README.md",
-        "hash": "9900811034612618115"
-      },
-      {
-        "file": "tsconfig.base.json",
-        "hash": "13820892288481641697"
-      },
-      {
-        "file": ".prettierignore",
-        "hash": "16448050467312557263"
-      },
-      {
-        "file": ".eslintignore",
-        "hash": "7663861978715868291"
-      },
-      {
-        "file": ".vscode/extensions.json",
-        "hash": "4934098906304722861"
-      },
-      {
-        "file": ".editorconfig",
-        "hash": "5443105041930014821"
-      },
-      {
-        "file": "bun.lockb",
-        "hash": "14144531555865994129"
-      },
-      {
-        "file": ".gitignore",
-        "hash": "16877376182141465221"
-      },
-      {
-        "file": ".prettierrc",
-        "hash": "16267754514737964994"
-      },
-      {
-        "file": ".eslintrc.json",
-        "hash": "18315524891129148814"
-      },
-      {
-        "file": "jest.preset.js",
-        "hash": "9430166341120122740"
-      },
-      {
-        "file": "nx.json",
-        "hash": "3572990181569677582"
-      },
-      {
-        "file": "jest.config.ts",
-        "hash": "3494843969422251966"
-      }
-    ],
     "projectFileMap": {
       "bun-playwright": [
         {
@@ -124,7 +62,7 @@
         },
         {
           "file": "bun-playwright/src/main.ts",
-          "hash": "17278539880256469482",
+          "hash": "6135765067289952200",
           "deps": [
             "npm:playwright"
           ]
@@ -135,6 +73,35 @@
         },
         {
           "file": "bun-playwright/tsconfig.json",
+          "hash": "15689909388364298010"
+        }
+      ],
+      "bun-puppeteer": [
+        {
+          "file": "bun-puppeteer/README.md",
+          "hash": "7806904191738042279"
+        },
+        {
+          "file": "bun-puppeteer/project.json",
+          "hash": "2129419739354598994"
+        },
+        {
+          "file": "bun-puppeteer/src/main.spec.ts",
+          "hash": "14436959481077678543"
+        },
+        {
+          "file": "bun-puppeteer/src/main.ts",
+          "hash": "7785090592639806267",
+          "deps": [
+            "npm:puppeteer"
+          ]
+        },
+        {
+          "file": "bun-puppeteer/tsconfig.app.json",
+          "hash": "9045027040240779990"
+        },
+        {
+          "file": "bun-puppeteer/tsconfig.json",
           "hash": "15689909388364298010"
         }
       ],
@@ -168,35 +135,6 @@
           "hash": "11811063609444882018"
         }
       ],
-      "bun-puppeteer": [
-        {
-          "file": "bun-puppeteer/README.md",
-          "hash": "7806904191738042279"
-        },
-        {
-          "file": "bun-puppeteer/project.json",
-          "hash": "2129419739354598994"
-        },
-        {
-          "file": "bun-puppeteer/src/main.spec.ts",
-          "hash": "14436959481077678543"
-        },
-        {
-          "file": "bun-puppeteer/src/main.ts",
-          "hash": "7785090592639806267",
-          "deps": [
-            "npm:puppeteer"
-          ]
-        },
-        {
-          "file": "bun-puppeteer/tsconfig.app.json",
-          "hash": "9045027040240779990"
-        },
-        {
-          "file": "bun-puppeteer/tsconfig.json",
-          "hash": "15689909388364298010"
-        }
-      ],
       "node-playwright": [
         {
           "file": "node-playwright/.eslintrc.json",
@@ -216,7 +154,7 @@
         },
         {
           "file": "node-playwright/src/main.ts",
-          "hash": "2520931163015517198",
+          "hash": "13237383322533207373",
           "deps": [
             "npm:playwright"
           ]
@@ -234,6 +172,64 @@
           "hash": "17313551537729802733"
         }
       ]
-    }
+    },
+    "nonProjectFiles": [
+      {
+        "file": ".editorconfig",
+        "hash": "5443105041930014821"
+      },
+      {
+        "file": ".eslintignore",
+        "hash": "7663861978715868291"
+      },
+      {
+        "file": ".eslintrc.json",
+        "hash": "18315524891129148814"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "16877376182141465221"
+      },
+      {
+        "file": ".prettierignore",
+        "hash": "16448050467312557263"
+      },
+      {
+        "file": ".prettierrc",
+        "hash": "16267754514737964994"
+      },
+      {
+        "file": ".vscode/extensions.json",
+        "hash": "4934098906304722861"
+      },
+      {
+        "file": "README.md",
+        "hash": "9900811034612618115"
+      },
+      {
+        "file": "bun.lockb",
+        "hash": "8366346920998411385"
+      },
+      {
+        "file": "jest.config.ts",
+        "hash": "3494843969422251966"
+      },
+      {
+        "file": "jest.preset.js",
+        "hash": "9430166341120122740"
+      },
+      {
+        "file": "nx.json",
+        "hash": "3572990181569677582"
+      },
+      {
+        "file": "package.json",
+        "hash": "12082132712178153627"
+      },
+      {
+        "file": "tsconfig.base.json",
+        "hash": "13820892288481641697"
+      }
+    ]
   }
 }

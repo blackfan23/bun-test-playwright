@@ -56,5 +56,43 @@
         ]
       }
     }
+  },
+  "9910407664023494208": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "node-playwright"
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests",
+          "help": {
+            "command": "bun jest --help",
+            "example": {
+              "options": {
+                "coverage": true
+              }
+            }
+          }
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          "{workspaceRoot}/jest.preset.js",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/node-playwright"
+        ]
+      }
+    }
   }
 }
