@@ -40,5 +40,8 @@
     "ts-jest": "^29.2.5",
     "ts-node": "10.9.2",
     "typescript": "~5.5.4"
+  },
+  "patchedDependencies": {
+    "playwright-core@1.49.1": ".patches/playwright-core@1.49.1.patch"
   }
 }
