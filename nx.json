@@ -21,6 +21,5 @@
       "inputs": ["production", "^production"]
     }
   },
-  "plugins": ["@nx/eslint/plugin", "@nx/jest/plugin", "@nx/deno"],
-  "useLegacyCache": true
+  "plugins": ["@nx/eslint/plugin", "@nx/jest/plugin", "@nx/deno"]
 }
